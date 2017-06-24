@@ -122,7 +122,7 @@
  *
  * This object can subsequently be used to unregister the handler, or use the handler as a stream.
  *
- * Alternatively you can use {@link io.vertx.core.eventbus.EventBus#consumer(String, io.vertx.core.Handler)} to
+ * Alternatively you can use {@link io.vertx.core.eventbus.EventBus#consumer(String, io.vertx.core.Handler)}
  * to return a +MessageConsumer+ with no handler set, and then set the handler on that. For example:
  *
  * [source,$lang]
